@@ -90,13 +90,13 @@ function  max (a,b){
 console.log(max(write1,write2))
 
 
-//function diclaration and expression 
+// //function diclaration and expression 
 
-function sum1(a, b) {
-   return a+b;
-}
+// function sum1(a, b) {
+//    return a+b;
+// }
 
-let max1 = (a, b) => (a > b ? a : b)
+// let max1 = (a, b) => (a > b ? a : b)
 
-let s = max1(1, 2)
-console.log(s)
+// let s = max1(1, 2)
+// console.log(s)
