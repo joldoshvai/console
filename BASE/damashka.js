@@ -130,8 +130,8 @@ let youarr = [2, 4, 5, 6, 8]
 
 let result = 0
 
-
 for (let i = 0;i < youarr.length; i++) {
+
     result += youarr[i]
 }
 
