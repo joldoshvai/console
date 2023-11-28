@@ -1,113 +1,135 @@
-//  array
-const arr = [1, 2, 3, 4]
+// //  array
+// const arr = [1, 2, 3, 4]
 
-delete arr[0]
+// delete arr[0]
 
-//splice 
-arr.splice (2, 3, 63, 56, 80)
-console.log(arr);
-
-
-//slice
-
-const newarr = arr.splice(0, 2);
-console.log(newarr);
-console.log(arr);
+// //splice 
+// arr.splice (2, 3, 63, 56, 80)
+// console.log(arr);
 
 
-// indexof   страканы алдынан эсептейт
-console.log(arr.indexOf(2));
+// //slice
 
-// lastindexof стаканы артынан эсептеп берет
-console.log(arr.lastIndexOf(2));
-// includes  барюы / жокпу 
-console.log(arr.includes(4));
-// reverse массивти наборот эсептейт
-
-console.log(arr.reverse());
-
-//split стракага болот
-
-let str = "heAllo my forld my"
-
-const strarr = str.split(" ")
-console.log(strarr);
-
-//join массивди кошот
-
-console.log(strarr.join(" "));
-
-//isarray массивди \ массив эмес
-console.log(Array.isArray(arr));
-
-// concat / бир катарга тургузат
-
-const joininsdArr = arr.concat(arr.strarr);
-console.log(joininsdArr);
-
-//forEach
-strarr.forEach((element, ind, arr) => {
-    console.log(ind, element, arr)
-});
+// const newarr = arr.splice(0, 2);
+// console.log(newarr);
+// console.log(arr);
 
 
-// fion  
- const findrd = strarr.find((el) => el === "my")
- console.log(findrd);
+// // indexof   страканы алдынан эсептейт
+// console.log(arr.indexOf(2));
 
- // filter 
+// // lastindexof стаканы артынан эсептеп берет
+// console.log(arr.lastIndexOf(2));
+// // includes  барюы / жокпу 
+// console.log(arr.includes(4));
+// // reverse массивти наборот эсептейт
 
- const findedarr = strarr.filter((el) => el === "my")
- console.log(findedarr);
+// console.log(arr.reverse());
 
- //map 
+// //split стракага болот
 
- const mappedarr = strarr.map((el, inx, arr) => {
-    return  "A" + el   
- })
- console.log(mappedarr);
+// let str = "heAllo my forld my"
 
- //sort // иреттейт
- console.log(arr);
- const sortedarr = arr.sort((a, b) => a - b)
- console.log(mappedarr);
+// const strarr = str.split(" ")
+// console.log(strarr);
 
- //reduce 
- const summ = arr.reduce((acc, el, idx, arr) =>{
-    return acc + el;
- }, 0)
- console.log(summ);
+// //join массивди кошот
 
+// console.log(strarr.join(" "));
 
- let myrarr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
- const maphw = myrarr.map((el ) => {
-     return  el * 2
-    });
- console.log(maphw)
+// //isarray массивди \ массив эмес
+// console.log(Array.isArray(arr));
 
- const youarr = [1, 2, 3, 4, 5, 6, 7, 8, 9 ,]
- let wearr = youarr.filter((el, idx, myrarr) => {
-    return el % 2 === 0;
- })
- console.log(wearr);
+// // concat / бир катарга тургузат
+
+// const joininsdArr = arr.concat(arr.strarr);
+// console.log(joininsdArr);
+
+// //forEach
+// strarr.forEach((element, ind, arr) => {
+//     console.log(ind, element, arr)
+// });
 
 
+// // fion  
+//  const findrd = strarr.find((el) => el === "my")
+//  console.log(findrd);
 
-let aarr = [1, 2, 3, 4, 5, 6, 7, 8, 9 ,]
-const starr = aarr.reduce((acc, el, ind, aarr) => {
-    return acc + el
-}, 0)
-console.log(starr)
+//  // filter 
+
+//  const findedarr = strarr.filter((el) => el === "my")
+//  console.log(findedarr);
+
+//  //map 
+
+//  const mappedarr = strarr.map((el, inx, arr) => {
+//     return  "A" + el   
+//  })
+//  console.log(mappedarr);
+
+//  //sort // иреттейт
+//  console.log(arr);
+//  const sortedarr = arr.sort((a, b) => a - b)
+//  console.log(mappedarr);
+
+//  //reduce 
+//  const summ = arr.reduce((acc, el, idx, arr) =>{
+//     return acc + el;
+//  }, 0)
+//  console.log(summ);
 
 
-const aearr = aarr.reduce((el, cur) =>{
-    return (el < cur) ? el : cur
-}) 
+//  let myrarr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+//  const maphw = myrarr.map((el ) => {
+//      return  el * 2
+//     });
+//  console.log(maphw)
 
-console.log(aearr)
+//  const youarr = [1, 2, 3, 4, 5, 6, 7, 8, 9 ,]
+//  let wearr = youarr.filter((el, idx, myrarr) => {
+//     return el % 2 === 0;
+//  })
+//  console.log(wearr);
 
-const maarr = aarr.map((el) => {
-    return el.toString()
+
+
+// let aarr = [1, 2, 3, 4, 5, 6, 7, 8, 9 ,]
+// const starr = aarr.reduce((acc, el, ind, aarr) => {
+//     return acc + el
+// }, 0)
+// console.log(starr)
+
+
+// const aearr = aarr.reduce((el, cur) => {
+//     return (el < cur) ? el : cur
+// }, -6) 
+
+// console.log(aearr)
+
+// const maarr = aarr.map((el) => {
+//     return el.toString()
+// })
+
+// console.log(maarr)
+
+// const mwarr = "hello tilek world my".split(" ");
+
+// const tiarr = mwarr.map((el) => {
+//     const helfword = el.length / 2;
+//     const firsthelf = el.split(0, helfword);
+//     const secendword = el.split(helfword);
+//     const newword = firsthelf + "A" + secendword;
+//     return newword
+// })
+// console.log(mwarr)
+
+const wearr = "abdujamil albert argen".split(" ")
+
+const nowwearr = wearr.filter((el) => {
+    const forarr = el.length / 2 ;
+    const dearr = el.split(0, forarr)
+    const qrarr = el.split(dearr)
+    const werarr = dearr + "" + qrarr
+    return werarr;
 })
-
-console.log(maarr)
+console.log(nowwearr)
