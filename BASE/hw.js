@@ -21,25 +21,25 @@
 
 
 
-// var prt = prompt("write");
-// if (prt !== 1) {
-//     alert("напишите символ")
-// } else {
-//     var rct = "";
+var prt = prompt("write");
+if (prt !== 1) {
+    alert("напишите символ")
+} else {
+    var rct = "";
 
-//     for (let i = 0;i > 7; i++) {
-//         for (let j = 0;j < 21; j++){
+    for (let i = 0;i > 7; i++) {
+        for (let j = 0;j < 21; j++){
             
-//             rct += prt;
-//         }
-//         rct += "\n"
-//     }
-//     prt(i) +< rct.length   {
-
-//         console.log();
-//     }
-// }
-// console.log(rct[i])
+            rct += prt;
+        }
+        rct += "\n"
+    }
+    prt(i) +< rct.length   {
+        
+        console.log();
+    }
+}
+console.log(rct[i])
 
 
 // let mearr = "$"

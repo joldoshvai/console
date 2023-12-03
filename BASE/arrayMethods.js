@@ -123,13 +123,14 @@
 // })
 // console.log(mwarr)
 
-const wearr = "abdujamil albert argen".split(" ")
+const wearr = "abdujamil albert argen"
 
-const nowwearr = wearr.filter((el) => {
-    const forarr = el.length / 2 ;
-    const dearr = el.split(0, forarr)
-    const qrarr = el.split(dearr)
-    const werarr = dearr + "" + qrarr
-    return werarr;
-})
-console.log(nowwearr)
+// //const nowwearr = wearr.filter((el) => {
+//     const forarr = el.join(" ") ;
+//     const dearr = el.toUpperCase(0, forarr)
+//     const qrarr = el.toUpperCase(dearr)
+//     const werarr = dearr + qrarr
+//     return werarr;
+// })
+// console.log(nowwearr)
+// const array = wearr.map((el, ind) => )

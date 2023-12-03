@@ -105,21 +105,21 @@ for (let i = 0;i < 10; i++) {
         console.log(myarr.push("x"))
 }
 
-// let mearr = []
+let mearr = []
 
-// for (let i = 0;i < 100; i++) {
+for (let i = 0;i < 100; i++) {
     
-//     console.log(mearr.push(i));
-// }
-// function hon(mearr) {
-//     if (i>mearr) {
-//         return
-//     }
-//     else {
-//         return
-//     }
+    console.log(mearr.push(i));
+}
+function hon(mearr) {
+    if (i>mearr) {
+        return
+    }
+    else {
+        return
+    }
 
-// }
+}
 // Вывод столбца четных чисел от 0 до 100
 for (let i = 0; i <= 100; i += 2) {
     console.log(i);
