@@ -1,19 +1,19 @@
-const person = {
-    name: {
-      last: "argem",
-      first: "zholdoshvai"
-    },
-    agg: 18,
-    sayhello: function () {
+// const person = {
+//     name: {
+//       last: "argem",
+//       first: "zholdoshvai"
+//     },
+//     agg: 18,
+//     sayhello: function () {
         
-        return ( "hello ,my name is " + this.name.last + "i am" + this.agg + "yors old")        
-    }
+//         return ( "hello ,my name is " + this.name.last + "i am" + this.agg + "yors old")        
+//     }
 
-}
-// dot notation
-console.log(person.name);
+// }
+// // dot notation
+// console.log(person.name);
 
-// brucket notation
+// // brucket notation
 // const a = "name"
 // console.log(person[a]);
 // for (const key  in person) {
@@ -57,38 +57,142 @@ console.log(person.name);
 // console.log(art);
 
 
-const symbol = prompt("");
+// const symbol = prompt("");
 
-// let smileRow = "   prompt \n";
+//  let smileRow = "   prompt \n";
 
-let rectangle = "";
-for (let i = 0; i < 3; i++) {
-    if (i === 1) {
-        rectangle +="# " + symbol + " #"; 
-    } else {
-        for (let j = 0; j < symbol.length+4; j++) {
-            rectangle += "#"
-        }
+// let rectangle = "";
+// for (let i = 0; i < 3; i++) {
+//     if (i === 1) {
+//         rectangle +="# " + symbol + " #"; 
+//     } else {
+//         for (let j = 0; j < symbol.length+4; j++) {
+//             rectangle += "#"
+//         }
+//     }
+//     rectangle += "\n"; 
+// }    
+
+// console.log(rectangle);
+
+
+
+// let earr = +    prompt("")
+
+// var circil = {
+//     radius: 1,
+
+//     getaren: function () {
+//         return Math.PI * Math.pow(this.radius, 2)
+//     },
+//     getCircumference: function (){
+//         return 2 * Math.PI * this.radius;
+//     }
+
+// }   
+// circil.radius = earr
+// console.log(circil.getaren(), circil.getCircumference());
+
+
+// беиек методтору
+
+// get keys 
+// console.log(person);
+
+// console.log(Object.keys(person));
+
+// // get velues
+
+// console.log(Object.values(person));
+
+ // entrise
+// console.log(Object.entries(person));
+
+// assigz
+// const aert = {
+//     jop: "frontent",
+//     exper: "2 yarst",
+//     edice: "wiehfwi"
+// }
+// Object.assign(person, aert);
+// console.log(person);
+// console.log(aert);
+
+// freeze
+
+// Object.freeze(person)
+// person.agg = 15;
+// person.concook = true;
+// console.log(person);
+
+// //seal
+// Object.seal(person);
+// person.agg = 15;
+// person.concook = true;
+// console.log(person);
+
+const odj = { 
+    a:1, 
+    b:2, 
+    c:3, 
+}
+let objectAr=Object.keys(odj);
+console.log(objectAr.length);
+let length = odj.length;
+console.log(length);
+
+const arr = [{
+    a: 1,
+    b: 2,
+    c: 3,
+}]
+console.log(Object.values(arr));
+//  3. Создайте объект заработных плат obj = {Ширин: '1000', Айжан:'500', Атай: '200'}; Выведите на экран зарплату Атая и Ширин.
+
+const earr = {
+    money: {
+        shirin: 1000,
+        atay: 200,   
+    },
+    ayizhan:500
     }
-    rectangle += "\n"; 
+
+console.log(earr.money);
+
+// 4. Создайте объект заработных плат obj = {Ширин: '1000', Айжан:'500', Атай: '200'}. Измените зарплату Атая на 500.
+
+const weer = {
+    shirin :1000,
+    aizhan :500 ,
+    atay: 200
+}
+Object.seal(weer);
+weer.atay = 500;
+console.log(weer);
+
+// 5. Создайте объект заработных плат obj = {Ширин: '1000', Айжан:'500', Атай: '200'}. Добавьте к объекту ключ Медет со значением 1500.
+
+const wewe = {
+    shirin :1000,
+    aizhan :500 ,
+    atay: 200
+}
+const trt = {
+    meded: 1500
 }
 
-console.log(rectangle);
+Object.assign(wewe, trt);
+console.log(wewe);
+// console.log(trt)
 
+// 6. Создайте объект заработных плат obj = {Ширин: '1000', Айжан:'500', Атай: {salary: '500'}. Выведите значение ключа salary в консоль.
 
-
-let earr = +    prompt("")
-// let qarr = 5;
-var circil = {
-    radius: 1,
-
-    getaren: function () {
-        return Math.PI * Math.pow(this.radius, 2)
-    },
-    getCircumference: function (){
-        return 2 * Math.PI * this.radius;
+const weee = {
+    shirin :1000,
+    aizhan :500 ,
+    atay: {
+        salary: 500
     }
+}
+console.log(weee.atay())
 
-}   
-circil.radius = earr
-console.log(circil.getaren(), circil.getCircumference())
