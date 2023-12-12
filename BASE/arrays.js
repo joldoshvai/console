@@ -39,3 +39,7 @@ for (let i = 0; i < arr.length; i++)  {
         newArr.push(arr[i])
     }
 }
+
+let name = "aregn"
+let index = name.indexOF("argen")
+console.log(index);
