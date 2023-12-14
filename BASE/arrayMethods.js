@@ -119,7 +119,7 @@
 //     const firsthelf = el.split(0, helfword);
 //     const secendword = el.split(helfword);
 //     const newword = firsthelf + "A" + secendword;
-//     return newword
+//     return newword 
 // })
 // console.log(mwarr)
 

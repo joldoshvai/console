@@ -43,3 +43,13 @@ for (let i = 0; i < arr.length; i++)  {
 let name = "aregn"
 let index = name.indexOF("argen")
 console.log(index);
+
+
+
+// 0. Вам дан массив [55, 44, 55, 44, 15, 49]. Оставьте в нем только неповторяющиеся числа.
+
+const nerarr = [55, 44, 55, 44, 15, 49]
+const filter = nerarr.filter((value ,inx, arr) => {
+    return arr.indexOf(value)  === inx
+})
+console.log(filter);
